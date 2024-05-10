@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/colorzone/static/css/main.60f96bf1.css",
+    "main.js": "/colorzone/static/js/main.d8367fbf.js",
+    "static/js/592.015381e7.chunk.js": "/colorzone/static/js/592.015381e7.chunk.js",
+    "index.html": "/colorzone/index.html",
+    "main.60f96bf1.css.map": "/colorzone/static/css/main.60f96bf1.css.map",
+    "main.d8367fbf.js.map": "/colorzone/static/js/main.d8367fbf.js.map",
+    "592.015381e7.chunk.js.map": "/colorzone/static/js/592.015381e7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60f96bf1.css",
+    "static/js/main.d8367fbf.js"
+  ]
+}
