@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/colorzone/static/css/main.60f96bf1.css",
-    "main.js": "/colorzone/static/js/main.d8367fbf.js",
-    "static/js/592.015381e7.chunk.js": "/colorzone/static/js/592.015381e7.chunk.js",
-    "index.html": "/colorzone/index.html",
-    "main.60f96bf1.css.map": "/colorzone/static/css/main.60f96bf1.css.map",
-    "main.d8367fbf.js.map": "/colorzone/static/js/main.d8367fbf.js.map",
-    "592.015381e7.chunk.js.map": "/colorzone/static/js/592.015381e7.chunk.js.map"
+    "main.css": "/coloringzone/static/css/main.60f96bf1.css",
+    "main.js": "/coloringzone/static/js/main.5c2fcf58.js",
+    "static/js/592.015381e7.chunk.js": "/coloringzone/static/js/592.015381e7.chunk.js",
+    "index.html": "/coloringzone/index.html",
+    "main.60f96bf1.css.map": "/coloringzone/static/css/main.60f96bf1.css.map",
+    "main.5c2fcf58.js.map": "/coloringzone/static/js/main.5c2fcf58.js.map",
+    "592.015381e7.chunk.js.map": "/coloringzone/static/js/592.015381e7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.60f96bf1.css",
-    "static/js/main.d8367fbf.js"
+    "static/js/main.5c2fcf58.js"
   ]
 }
