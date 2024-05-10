@@ -1,38 +1,52 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.canvas-controls,
+.brush-controls {
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.brush-controls label {
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.brush-sizes {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.brush-sizes button {
+  font-size: 20px;
+  padding: 5px 10px;
+  margin: 2px;
+  border: none;
+  background-color: #4caf50;
   color: white;
+  border-radius: 50%; /* Make the buttons circular */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.brush-sizes button:hover {
+  background-color: #1be425;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.brush-sizes button:active {
+  transform: translateY(1px);
+  /* Add additional styling to make the active state more visible */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Example: Add a subtle shadow */
 }
+

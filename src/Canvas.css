@@ -1,0 +1,52 @@
+.Canvas {
+  border: 2px solid #ccc; /* Add a border around the canvas */
+  border-radius: 8px; /* Add some border radius for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+canvas {
+  background-color: #f8f8f8; /* Set the background color of the canvas */
+  cursor: crosshair; /* Change cursor to crosshair when hovering over canvas */
+}
+
+.canvas-container {
+  position: relative;
+}
+
+.buttons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.buttons button {
+  font-size: 16px;
+  padding: 8px 12px;
+  margin-left: 8px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #1be425;
+}
+
+.buttons button:active {
+  transform: translateY(1px);
+}
+.brush-sizes {
+  position: absolute;
+  left: -430px; /* Adjust the left position as needed */
+  top: 190%; /* Adjust the top position as needed */
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column; /* Display brush sizes vertically */
+}
+
+.brush-sizes button {
+  margin-bottom: 5px; /* Adjust the margin bottom as needed */
+}
